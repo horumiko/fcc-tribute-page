@@ -37,11 +37,35 @@ p{
     margin: 0 auto;
 }
 #img-caption{
-
+    margin: 15px 0 5px 0;
 }
 #tribute-info{
+    text-align: justify;
 
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+ul{
+    max-width: 550px;
+    margin: 0 auto 50px auto;
+    text-align: left;
+    line-height: 1.6;
+}
+li {
+    margin: 16px 0;
+}
+blockquote{
+    max-width: 550px;
+    text-align: left;
+
+    margin-top: 0;
 }
 #tribute-link{
-
+    color: #477ca7;
+}
+  
+#tribute-link:visited {
+    color: #74638f;
 }
